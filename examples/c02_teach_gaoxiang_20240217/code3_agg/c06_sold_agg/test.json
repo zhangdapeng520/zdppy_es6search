@@ -1,0 +1,41 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 8,
+    "max_score": 0.0,
+    "hits": []
+  },
+  "aggregations": {
+    "sold_range": {
+      "buckets": [
+        {
+          "key": "*-2014-01-01",
+          "to": 1388534400000.0,
+          "to_as_string": "2014-01-01",
+          "doc_count": 1
+        },
+        {
+          "key": "2014-01-01-2014-12-31",
+          "from": 1388534400000.0,
+          "from_as_string": "2014-01-01",
+          "to": 1419984000000.0,
+          "to_as_string": "2014-12-31",
+          "doc_count": 6
+        },
+        {
+          "key": "2014-12-31-*",
+          "from": 1419984000000.0,
+          "from_as_string": "2014-12-31",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}

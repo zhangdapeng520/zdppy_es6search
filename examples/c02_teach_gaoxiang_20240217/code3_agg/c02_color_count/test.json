@@ -1,0 +1,23 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 8,
+    "max_score": 0.0,
+    "hits": []
+  },
+  "aggregations": {
+    "make_by": {
+      "doc_count": 3,
+      "avg_price": {
+        "value": 16666.666666666668
+      }
+    }
+  }
+}

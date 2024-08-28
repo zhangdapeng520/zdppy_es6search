@@ -1,0 +1,37 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 8,
+    "max_score": 0.0,
+    "hits": []
+  },
+  "aggregations": {
+    "price_range": {
+      "buckets": [
+        {
+          "key": "*-20000.0",
+          "to": 20000.0,
+          "doc_count": 3
+        },
+        {
+          "key": "20000.0-40000.0",
+          "from": 20000.0,
+          "to": 40000.0,
+          "doc_count": 4
+        },
+        {
+          "key": "40000.0-*",
+          "from": 40000.0,
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}

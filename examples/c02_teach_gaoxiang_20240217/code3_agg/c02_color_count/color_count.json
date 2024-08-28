@@ -1,0 +1,35 @@
+{
+  "took": 8,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 8,
+    "max_score": 0.0,
+    "hits": []
+  },
+  "aggregations": {
+    "color_count": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "red",
+          "doc_count": 4
+        },
+        {
+          "key": "blue",
+          "doc_count": 2
+        },
+        {
+          "key": "green",
+          "doc_count": 2
+        }
+      ]
+    }
+  }
+}

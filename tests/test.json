@@ -1,0 +1,193 @@
+{
+  'took': 7,
+  'timed_out': False,
+  '_shards': {
+    'total': 5,
+    'successful': 5,
+    'skipped': 0,
+    'failed': 0
+  },
+  'hits': {
+    'total': 10000,
+    'max_score': 0.0,
+    'hits': []
+  },
+  'aggregations': {
+    'oriDomain.keyword': {
+      'doc_count_error_upper_bound': 0,
+      'sum_other_doc_count': 0,
+      'buckets': [
+        {
+          'key': 'gmis-prod-0',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-0',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6475.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-1',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-1',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6467.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-2',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-2',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6501.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-3',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-3',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6505.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-4',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-4',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6516.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-5',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-5',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6605.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-6',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-6',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6367.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-7',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-7',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6530.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-8',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-8',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6585.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          'key': 'gmis-prod-9',
+          'doc_count': 1000,
+          'destDomain.keyword': {
+            'doc_count_error_upper_bound': 0,
+            'sum_other_doc_count': 0,
+            'buckets': [
+              {
+                'key': 'gmis-prod-9',
+                'doc_count': 1000,
+                'callCount_sum': {
+                  'value': 6580.0
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

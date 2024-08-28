@@ -1,0 +1,30 @@
+{
+  "took": 80,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 5,
+    "max_score": 0.0,
+    "hits": []
+  },
+  "aggregations": {
+    "log_level": {
+      "buckets": {
+        "info": {
+          "doc_count": 2
+        },
+        "warning": {
+          "doc_count": 3
+        },
+        "other": {
+          "doc_count": 1
+        }
+      }
+    }
+  }
+}
